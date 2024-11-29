@@ -87,11 +87,9 @@ export const skills = [
       {
         icon: (
           <>
-            {/* 기본 사각형 프레임 */}
             <rect x="2" y="2" width="20" height="20" rx="3" ry="3" />
             
-            {/* 연필 아이콘 - 클립 스튜디오의 상징적인 요소 */}
-            <g transform="translate(6, 6) scale(0.5)"> {/* 아이콘 위치와 크기 조정 */}
+            <g transform="translate(6, 6) scale(0.5)"> 
               <path
                 d="M22 2L13 11l-1 1-2 5 5-2 1-1 9-9-3-3zM13 12l3 3"
                 fill="none"
@@ -102,7 +100,6 @@ export const skills = [
               />
             </g>
             
-            {/* CSP 텍스트 */}
             <text 
               x="50%" 
               y="75%" 
