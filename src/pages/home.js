@@ -10,8 +10,6 @@ const Home = () => {
     <div className="fixed inset-12 bg-gray-900 flex flex-col justify-start items-center py-8">
       {/* 깃허브 링크 및 이메일 */}
       <ProfileLinks 
-            githubLink="https://github.com/your-github-username" 
-            email="yih1508@naver.com" 
           />
       <img 
         src={profileImage} 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home.js';
 import Projects from './pages/Projects.js';
@@ -6,6 +6,10 @@ import Contact from './pages/Contact.js';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
+
+  useEffect(() => {
+    document.title = "Portfolio"; 
+  }, []); 
 
   const renderPage = () => {
     switch(currentPage) {
@@ -22,7 +26,6 @@ const App = () => {
 
   return (
     <>
-      {/* BrowserRouter와 Routes 설정 */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

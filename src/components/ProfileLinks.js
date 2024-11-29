@@ -5,7 +5,7 @@ const ProfileLinks = () => {
     <div className="flex flex-row items-center p-8 space-x-4">
       {/* 깃허브 링크 */}
       <a
-        href="https://github.com/your-github-username" // 깃허브 링크 변경
+        href="https://github.com/youHazi" 
         target="_blank"
         rel="noopener noreferrer"
         className="bg-gray-100 text-gray-800 p-2 rounded-full hover:bg-gray-200 transition"
@@ -22,7 +22,7 @@ const ProfileLinks = () => {
 
       {/* 이메일 링크 */}
       <a
-        href="mailto:yoh15" // 이메일 주소 변경
+        href="mailto:yih1508@naver.com"
         className="bg-custom-blue text-white p-2 rounded-full hover:bg-blue-600 transition"
       >
         <svg
