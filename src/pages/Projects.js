@@ -30,7 +30,7 @@ const Projects = () => {
                   <motion.span
                     key={tech}
                     className="bg-blue-50 text-custom-blue text-xs px-2 py-1 rounded-full"
-                    whileHover={{ scale: 1.1}} // 태그 hover 시 색과 크기 변경
+                    whileHover={{ scale: 1.1}} 
                     transition={{ duration: 0.1 }}
                   >
                     {tech}
@@ -43,7 +43,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-100 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-200 transition"
-                  whileHover={{ scale: 1.1}} // GitHub 버튼 hover 애니메이션
+                  whileHover={{ scale: 1.1}} 
                   transition={{ duration: 0.1 }}
                 >
                   GitHub
@@ -53,7 +53,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-custom-blue text-white px-4 py-2 rounded-md hover:bg-blue-600 transition"
-                  whileHover={{ scale: 1.1}} // 데모 버튼 hover 애니메이션
+                  whileHover={{ scale: 1.1}} 
                   transition={{ duration: 0.1 }}
                 >
                   라이브 데모

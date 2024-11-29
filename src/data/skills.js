@@ -127,7 +127,7 @@ export const skills = [
       description: '반응형 React 포트폴리오 웹사이트로, 현대적이고 간결한 디자인을 구현했습니다.',
       technologies: ['React', 'Tailwind CSS', 'TypeScript'],
       imageUrl: [portfolioImage],
-      githubLink: '#',
+      githubLink: 'https://github.com/youHazi/test-portfolio',
       demoLink: '#'
     },
     {

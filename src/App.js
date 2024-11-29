@@ -36,7 +36,7 @@ const App = () => {
 
       {/* 메인 화면 레이아웃 */}
       <div className="min-h-screen bg-gray-900">
-        {/* 상단 네비게이션 바 */}
+
         <div className="fixed top-0 left-0 w-full bg-black border-b border-gray-800 z-10">
           <nav className="container mx-auto flex justify-center space-x-6 py-4">
             <button 
